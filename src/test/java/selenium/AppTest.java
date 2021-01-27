@@ -36,5 +36,19 @@ public class AppTest {
         searchbox.sendKeys("HandBook Devops");
         searchbox.submit();
         assertEquals("HandBook Devops", driver.getTitle().split("-", 0)[0].trim());
+        driver.findElement(By.linkText("Imágenes")).click();
+        assertEquals("HandBook Devops - Google Search", driver.getTitle().trim());
+        driver.findElement(By.linkText("Shopping")).click();
+        assertEquals("HandBook Devops - Google Shopping", driver.getTitle().trim());
+    }
+
+    @Test
+    public void shouldSearchInAmazon() {
+        System.out.println("Amazon Pruebas...");
+        driver.get("https://www.amazon.com");
+        WebElement searchbox = driver.findElement(By.id("twotabsearchtextbox"));
+        searchbox.sendKeys("The Phoenix Project");
+        searchbox.submit();
+        assertEquals("The Phoenix Project", driver.getTitle().split(":", 0)[1].trim());
     }
 }
