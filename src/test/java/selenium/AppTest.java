@@ -44,6 +44,7 @@ public class AppTest {
         driver.findElement(By.linkText("Shopping")).click();
         System.out.println("HandBook Devops Shopping...");
         assertEquals("HandBook Devops - Google Shopping", driver.getTitle().trim());
+        driver.quit();
     }
 
     @Test
@@ -56,5 +57,6 @@ public class AppTest {
         searchbox.submit();
         System.out.println("Search The Phoenix Project...");
         assertEquals("The Phoenix Project", driver.getTitle().split(":", 0)[1].trim());
+        driver.quit();
     }
 }

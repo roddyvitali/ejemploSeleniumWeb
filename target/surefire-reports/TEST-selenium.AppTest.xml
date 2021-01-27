@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.AppTest" time="24.512" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.AppTest" time="17.752" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="CL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib"/>
-    <property name="sun.java.command" value="/Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/surefire/surefirebooter4288887075868412414.jar /Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/surefire 2021-01-26T21-03-18_763-jvmRun1 surefire5900032974613582680tmp surefire_0268937064823189032tmp"/>
+    <property name="sun.java.command" value="/Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/surefire/surefirebooter4456385580933411497.jar /Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/surefire 2021-01-26T21-25-37_820-jvmRun1 surefire7754267653832718896tmp surefire_06179441141786133142tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/test-classes:/Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/classes:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/selyt2020/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/selyt2020/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/selyt2020/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/selyt2020/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/selyt2020/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/selyt2020/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/selyt2020/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/selyt2020/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/selyt2020/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/selyt2020/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/selyt2020/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/selyt2020/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/selyt2020/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/surefire/surefirebooter4288887075868412414.jar"/>
+    <property name="surefire.real.class.path" value="/Users/selyt2020/Documents/GitHub/devops/ejemploSeleniumWeb/target/surefire/surefirebooter4456385580933411497.jar"/>
     <property name="sun.boot.class.path" value="/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib/resources.jar:/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib/rt.jar:/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib/sunrsasign.jar:/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib/jsse.jar:/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib/jce.jar:/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib/charsets.jar:/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/lib/jfr.jar:/Users/selyt2020/.sdkman/candidates/java/8.0.275-amzn/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,6 +61,6 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="selenium.AppTest" time="14.224"/>
-  <testcase name="shouldSearchInAmazon" classname="selenium.AppTest" time="10.234"/>
+  <testcase name="shouldAnswerWithTrue" classname="selenium.AppTest" time="10.657"/>
+  <testcase name="shouldSearchInAmazon" classname="selenium.AppTest" time="7.06"/>
 </testsuite>
