@@ -1,12 +1,12 @@
 package selenium;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.junit.After;
 import org.junit.Test;
 import org.junit.Before;
 
@@ -29,6 +29,11 @@ public class AppTest {
         driver.navigate().to("https://www.google.com");
     }
 
+    @After
+    public void tearDown() {
+        driver.quit();
+    }
+
     @Test
     public void shouldAnswerWithTrue() {
         System.out.println("Iniciando Pruebas Google...");
@@ -44,7 +49,6 @@ public class AppTest {
         driver.findElement(By.linkText("Shopping")).click();
         System.out.println("HandBook Devops Shopping...");
         assertEquals("HandBook Devops - Google Shopping", driver.getTitle().trim());
-        driver.quit();
     }
 
     @Test
@@ -57,6 +61,5 @@ public class AppTest {
         searchbox.submit();
         System.out.println("Search The Phoenix Project...");
         assertEquals("The Phoenix Project", driver.getTitle().split(":", 0)[1].trim());
-        driver.quit();
     }
 }
